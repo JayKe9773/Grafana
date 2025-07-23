@@ -1,0 +1,12 @@
+gradientMode: "hue"
+cellIdPreamble: "g7FJhC3SirEoIeaR-nqI-"
+cells: 
+  5:
+    dataRef: "Disk One Status"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "normalized"
+    linkRef: "grafana-home"

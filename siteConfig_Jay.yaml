@@ -1,0 +1,34 @@
+links:
+  grafana-home:
+    url: "https://grafana.com/"
+    params: "time"
+colors:
+  red: "#FF0000"
+  amber: "#FFBF00"
+  green: "#00FF00"
+cellColorMappings:
+  darkTheme:
+    red: "red"
+    amber: "amber"
+    green: "green"
+  lightTheme:
+    red: "light-red"
+    amber: "light-orange"
+    green: "light-green"
+
+# The grafana variable has to impact a query, but if it does the first match
+# per variable will be applied to the thresholds. If using with test-data you
+# can get around this 'update' restriction by adding the variable to your panel title.
+variableThresholdScalars:
+  site:
+    - {variableValuePattern: ".*Cicely.*", thresholdScalar: 2, cellIdPatternScope: [".*box.*"]}
+  environment:
+    - {variableValuePattern: "dev", thresholdScalar: 0.2, cellIdPatternScope: [".*box.*"]}
+
+thresholds:
+  normalized:
+    - {color: "amber", level: 1}
+    - {color: "green", level: 2}
+    - {color: "red", level: 3}
+    - {color: "red", level: 4}	
+	
