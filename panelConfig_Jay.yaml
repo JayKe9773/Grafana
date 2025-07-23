@@ -1,7 +1,7 @@
 gradientMode: "hue"
-cellIdPreamble: "g7FJhC3SirEoIeaR-nqI-"
+cellIdPreamble: "45-7Ad6vYY371lEwY7TN-"
 cells: 
-  5:
+  3:
     dataRef: "Disk One Status"
     label:
       separator: "cr"
@@ -13,13 +13,4 @@ cells:
           - {color: "green", level: 2}
           - {color: "red", level: 3}
           - {color: "red", level: 4}	
-    linkRef: "grafana-home"
-  6:
-    dataRef: "Disk Two Status"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      thresholdsRef: "normalized"
     linkRef: "grafana-home"
