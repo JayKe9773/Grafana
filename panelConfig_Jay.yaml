@@ -1,7 +1,6 @@
 gradientMode: "hue"
-cellIdPreamble: "45-7Ad6vYY371lEwY7TN-"
 cells: 
-  3:
+  45-7Ad6vYY371lEwY7TN-3:
     dataRef: "Disk One Status"
     label:
       separator: "cr"
