@@ -5,35 +5,15 @@ cells:
     fillColor:
       # See labelColor
       dataRef: "Disk One Status"
-
-      # Version 1.16.0 onwards: Optional alternative data source for the cell taken from the bespoke drive
-      # scope. When set it's used in preference to the dataRef value.
-      bespokeDataRef: null
-    
+      bespokeDataRef: null 
       # See labelColor
       datapoint: "last"
-
       # See labelColor
       gradientMode: "hue"
-
       # See labelColor
       thresholds:
         - {color: "orange", level: 1}
         - {color: "semi-dark-green", level: 2}
         - {color: "red", level: 3}
         - {color: "red", level: 4}
-        
-      # See labelColor
-      thresholdsRef: "depth"
-
-      # Version 1.14.0 onwards: See labelColor
-      thresholdPatterns:
-        - {color: "green", pattern: '.*INFO.*'}
-        - {color: "amber", pattern: '.*WARNING.*'}
-        - {color: "red", pattern: '.*ERROR.*'}
-        - {color: "gray", pattern: '.*'}
-
-      # Version 1.14.0 onwards: See labelColor
-      thresholdPatternsRef: "depth"
-
     linkRef: "grafana-home"
