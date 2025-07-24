@@ -5,7 +5,6 @@ cells:
     fillColor:
       # See labelColor
       dataRef: "Disk One Status"
-      bespokeDataRef: null 
       # See labelColor
       datapoint: "last"
       # See labelColor
