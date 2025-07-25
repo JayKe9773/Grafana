@@ -10,3 +10,80 @@ cells:
         - {color: "red", level: 3}
         - {color: "red", level: 4}
     linkRef: "grafana-home"
+  g7FJhC3SirEoIeaR-nqI-8:
+    dataRef: "Disk Two Status"
+    fillColor:
+      dataRef: "Disk Two Status"
+      datapoint: "last"
+      thresholds:
+        - {color: "orange", level: 1}
+        - {color: "semi-dark-green", level: 2}
+        - {color: "red", level: 3}
+        - {color: "red", level: 4}
+    linkRef: "grafana-home"
+  g7FJhC3SirEoIeaR-nqI-9:
+    dataRef: "Disk Three Status"
+    fillColor:
+      dataRef: "Disk Three Status"
+      datapoint: "last"
+      thresholds:
+        - {color: "orange", level: 1}
+        - {color: "semi-dark-green", level: 2}
+        - {color: "red", level: 3}
+        - {color: "red", level: 4}
+    linkRef: "grafana-home"
+  g7FJhC3SirEoIeaR-nqI-10:
+    dataRef: "Disk Four Status"
+    fillColor:
+      dataRef: "Disk Four Status"
+      datapoint: "last"
+      thresholds:
+        - {color: "orange", level: 1}
+        - {color: "semi-dark-green", level: 2}
+        - {color: "red", level: 3}
+        - {color: "red", level: 4}
+    linkRef: "grafana-home"
+  g7FJhC3SirEoIeaR-nqI-11:
+    dataRef: "Disk Five Status"
+    fillColor:
+      dataRef: "Disk Five Status"
+      datapoint: "last"
+      thresholds:
+        - {color: "orange", level: 1}
+        - {color: "semi-dark-green", level: 2}
+        - {color: "red", level: 3}
+        - {color: "red", level: 4}
+    linkRef: "grafana-home"
+  g7FJhC3SirEoIeaR-nqI-12:
+    dataRef: "Disk Six Status"
+    fillColor:
+      dataRef: "Disk Six Status"
+      datapoint: "last"
+      thresholds:
+        - {color: "orange", level: 1}
+        - {color: "semi-dark-green", level: 2}
+        - {color: "red", level: 3}
+        - {color: "red", level: 4}
+    linkRef: "grafana-home"
+  g7FJhC3SirEoIeaR-nqI-13:
+    dataRef: "Disk Seven Status"
+    fillColor:
+      dataRef: "Disk Seven Status"
+      datapoint: "last"
+      thresholds:
+        - {color: "orange", level: 1}
+        - {color: "semi-dark-green", level: 2}
+        - {color: "red", level: 3}
+        - {color: "red", level: 4}
+    linkRef: "grafana-home"
+  g7FJhC3SirEoIeaR-nqI-14:
+    dataRef: "Disk Eight Status"
+    fillColor:
+      dataRef: "Disk Eight Status"
+      datapoint: "last"
+      thresholds:
+        - {color: "orange", level: 1}
+        - {color: "semi-dark-green", level: 2}
+        - {color: "red", level: 3}
+        - {color: "red", level: 4}
+    linkRef: "grafana-home"
