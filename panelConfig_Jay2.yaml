@@ -1,16 +1,9 @@
-gradientMode: "hue"
-cellIdPreamble: "g7FJhC3SirEoIeaR-nqI-"
 cells: 
-  6:
+  g7FJhC3SirEoIeaR-nqI-6:
     dataRef: "Disk One Status"
     fillColor:
-      # See labelColor
       dataRef: "Disk One Status"
-      # See labelColor
       datapoint: "last"
-      # See labelColor
-      gradientMode: "none"
-      # See labelColor
       thresholds:
         - {color: "orange", level: 1}
         - {color: "semi-dark-green", level: 2}
