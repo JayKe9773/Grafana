@@ -9,7 +9,7 @@ cells:
       # See labelColor
       datapoint: "last"
       # See labelColor
-      gradientMode: "hue"
+      gradientMode: "none"
       # See labelColor
       thresholds:
         - {color: "orange", level: 1}
