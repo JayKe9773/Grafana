@@ -13,8 +13,8 @@ cells:
       gradientMode: "hue"
       # See labelColor
       thresholds:
-        - {color: "orange", level: 1}
-        - {color: "semi-dark-green", level: 2}
+        - {color: "semi-dark-green", level: 1}
+        - {color: "orange", level: 2}
         - {color: "red", level: 3}
         - {color: "red", level: 4}
     linkRef: "grafana-home"
