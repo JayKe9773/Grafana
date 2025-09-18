@@ -1,8 +1,8 @@
 cells: 
   My1_Hk7sBKh1Tc-6wi9T-39:
-    dataRef: "Drive [8]: Status indicator"
+    dataRef: "SV10TPEHV12: Drive [8]: Status indicator"
     fillColor:
-      dataRef: "Drive [8]: Status indicator"
+      dataRef: "SV10TPEHV12: Drive [8]: Status indicator"
       datapoint: "last"
       thresholds:
         - {color: "semi-dark-green", level: 0}
