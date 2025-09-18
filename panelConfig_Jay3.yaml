@@ -239,3 +239,18 @@ cells:
         - {color: "orange", level: 6}
         - {color: "orange", level: 10}
     linkRef: "grafana-home"
+  My1_Hk7sBKh1Tc-6wi9T-242:
+    dataRef: "SV10TEPHV13: Drive [8]: Status indicator"
+    fillColor:
+      dataRef: "SV10TEPHV13: Drive [8]: Status indicator"
+      datapoint: "last"
+      thresholds:
+        - {color: "semi-dark-green", level: 0}
+        - {color: "red", level: 1}
+        - {color: "orange", level: 2}
+        - {color: "orange", level: 3}
+        - {color: "orange", level: 4}
+        - {color: "orange", level: 5}       
+        - {color: "orange", level: 6}
+        - {color: "orange", level: 10}
+    linkRef: "grafana-home"
